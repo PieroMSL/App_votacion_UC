@@ -64,12 +64,12 @@ dev_dependencies:
 
 # ── Configuración del ícono de la app ────────────────────────────────────────
 # flutter_launcher_icons leerá esta sección al correr el generador.
-flutter_icons:
-  android: "launcher_icon"  # Nombre del drawable generado en Android
-  ios: true                  # También actualiza el icono de iOS
+flutter_launcher_icons:
+  android: "launcher_icon"       # Nombre del drawable generado en Android
+  ios: true                      # También actualiza el icono de iOS
   image_path: "assets/icon.png"  # Ruta al PNG fuente (1024x1024 recomendado)
-  min_sdk_android: 21        # API mínima que requiere la app
-  remove_alpha_ios: true     # Apple rechaza íconos con transparencia
+  min_sdk_android: 21            # API mínima que requiere la app
+  remove_alpha_ios: true         # Apple rechaza íconos con transparencia
 
 
 # The following section is specific to Flutter packages.
